@@ -1,0 +1,13 @@
+backgrounds {
+	itemSelected {
+		color: #DCDCDC;
+		padding: 4;
+	}
+}
+title {
+	background: itemSelected;
+}
+focused {
+	background: itemSelected;
+}
+    
