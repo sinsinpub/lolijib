@@ -1,0 +1,12 @@
+MIDlet-Jar-Size: 0
+MIDlet-1: lolijib,/icon.png,com.sugree.twitter.TwitterMIDlet
+MIDlet-Jar-URL: lolijib.jar
+MIDlet-Icon: /icon.png
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Version: 1.2.0
+MIDlet-Info-URL: http://code.google.com/p/lolijib
+MIDlet-Description: lolijib is a small and fast Twitter client.
+MIDlet-Name: lolijib
+MIDlet-Vendor: sin_sin
+MIDlet-Permissions: javax.microedition.io.Connector.http,javax.microedition.media.control.VideoControl.getSnapshot
+MicroEdition-Profile: MIDP-2.0

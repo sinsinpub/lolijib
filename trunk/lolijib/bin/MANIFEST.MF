@@ -1,10 +1,10 @@
-MIDlet-1: jibjib,/icon.png,com.sugree.twitter.TwitterMIDlet
-MIDlet-Description: jibjib is a small and fast Twitter client.
+MIDlet-1: lolijib,/icon.png,com.sugree.twitter.TwitterMIDlet
+MIDlet-Description: lolijib is a small and fast Twitter client.
 MIDlet-Icon: /icon.png
-MIDlet-Info-URL: http://sugree.com/project/jibjib
-MIDlet-Name: jibjib
+MIDlet-Info-URL: http://code.google.com/p/lolijib
+MIDlet-Name: lolijib
 MIDlet-Permissions: javax.microedition.io.Connector.http,javax.microedition.media.control.VideoControl.getSnapshot
-MIDlet-Vendor: Sugree Phatanapherom
-MIDlet-Version: 1.1.0
+MIDlet-Vendor: sin_sin
+MIDlet-Version: 1.2.0
 MicroEdition-Configuration: CLDC-1.1
 MicroEdition-Profile: MIDP-2.0
