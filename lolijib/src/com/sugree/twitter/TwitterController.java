@@ -624,7 +624,7 @@ public class TwitterController {
 
 	public void showAbout() {
 		String text = TwitterMIDlet.NAME+" "+TwitterMIDlet.VERSION+
-			" by @sugree based on LoliTwitter by @pruet "+
+			" by @sinsinpub based on jibjib by @sugree and LoliTwitter by @pruet "+
 			"and Twim by @tlaukkanen.\n\n";
 		text += "Platform: "+System.getProperty("microedition.platform")+"\n";
 		text += "CLDC: "+System.getProperty("microedition.configuration")+"\n";

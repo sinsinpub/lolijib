@@ -1,0 +1,18 @@
+<client>
+	<name>lolijib</name>
+	<version>@version@</version>
+	<author>
+		<name>sin_sin</name>
+		<email>sinsinpub@gmail.com</email>
+		<twitter>sinsinpub</twitter>
+	</author>
+	<url>http://code.google.com/p/lolijib</url>
+	<twitter>sinsinpub</twitter>
+	<description><![CDATA[
+		lolijib is an open source J2ME Twitter client based on jibjib designed for all twitter-ers on the road. One hand controls the wheel and another hand tweets along the road.
+		<a href="http://sugree.com/project/jibjib">Original Project</a>
+		<a href="http://code.google.com/p/lolijib/">Code</a>
+		<a href="http://code.google.com/p/lolijib/downloads/list">Download</a>
+	]]>
+	</description>
+</client>
