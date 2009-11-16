@@ -1,24 +1,24 @@
-<project name="jibjib" default="clean" basedir=".">
+<project name="lolijib" default="clean" basedir=".">
   <property file="build.properties"/>
 
   <!-- set global properties for this build -->
-  <property name="project.name" value="jibjib"/>
-  <property name="project.vendor" value="Sugree Phatanapherom"/>
+  <property name="project.name" value="lolijib"/>
+  <property name="project.vendor" value="sin_sin"/>
 
 
   <property name="polish" value="J2ME-polish"/>
   <property name="ant-contrib" value="ant-contrib-1.0b3.jar"/>
   <property name="antenna" value="antenna-bin-1.1.0-beta.jar"/>
   <property name="preprocessor" value="preprocessor-v3-bin-1.2.jar"/>
-  <property name="ant-googlecode" value="D:\Java\ant-1.7.1\ant-contrib\ant-googlecode-0.0.2.jar"/>
+  <property name="ant-googlecode" value="lib\ant-googlecode-0.0.2.jar"/>
   <property name="proguard" value="proguard.jar"/>
   <property name="midp_home" value="j2mewtk"/>
-  <property name="gc.username" value="sugree"/>
+  <property name="gc.username" value="sinsinpub"/>
   <property name="gc.password" value="xxxxxx"/>
   <property name="security_domain" value="identified_third_party"/>
   <property name="device.emulator" value="DefaultColorPhone"/>
   <property name="device.run" value="Generic_midp20_cldc11"/>
-  <property name="svn.url" value="https://jibjib.googlecode.com/svn/d"/>
+  <property name="svn.url" value="https://lolijib.googlecode.com/svn/d"/>
 
   <property name="cldc_lib" value="${midp_home}/lib/cldcapi11.jar"/>
   <property name="midp_lib" value="${midp_home}/lib/midpapi20.jar"/>
@@ -51,9 +51,9 @@
   </target>
 
   <target name="init">
-    <property name="project.version" value="1.1.28"/>
+    <property name="project.version" value="1.2.0"/>
     <property name="project.prefix" value="${project.name}"/>
-    <property name="jar.url" value="http://jibjib.googlecode.com/svn/d/"/>
+    <property name="jar.url" value="http://lolijib.googlecode.com/svn/d/"/>
     <property name="debug" value="false"/>
     <property name="stable" value="false"/>
     <property name="project.polish" value="false"/>
@@ -212,9 +212,9 @@
     <j2mepolish>
       <info name="${project.name}"
             version="${project.version}"
-            description="jibjib is a small and fast Twitter client"
+            description="lolijib is a small and fast Twitter client"
             vendorName="${project.vendor}"
-            infoUrl="http://jibjib.org/"
+            infoUrl="http://code.google.com/p/lolijib/"
             icon="/icon.png"
             jarName="${project.prefix}-${polish.vendor}_${polish.name}.jar"
             jarUrl="${jar.url}${project.prefix}-${polish.vendor}_${polish.name}.jar" />
@@ -333,7 +333,7 @@
              fullscreen="menu"
              usePolishGui="${project.polish}"
              resDir="${res}">
-        <midlet class="com.sugree.twitter.TwitterMIDlet" name="jibjib" />
+        <midlet class="com.sugree.twitter.TwitterMIDlet" name="lolijib" />
         <obfuscator unless="debug" name="ProGuard" />
         <variables includeAntProperties="true">
           <variable name="polish.FullScreen" value="false"
